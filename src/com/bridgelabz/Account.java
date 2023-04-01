@@ -19,8 +19,7 @@ public class Account extends Bank {
 	{
 		super();
 	}
-	
-	
+		
 	public long getAccountNumber() {
 		return accountNumber;
 	}

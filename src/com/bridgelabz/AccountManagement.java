@@ -25,11 +25,11 @@ public class AccountManagement extends Account {
 		String branchName = sc.nextLine();
 		account1.setBranchName(branchName);
 		
-		System.out.println("Enter Branch IFSC code ");
+		System.out.println("Enter Branch code");
 		int branchCode = sc.nextInt();
 		account1.setBranchCode(branchCode);
 
-		System.out.println("Enter Branch code ");
+		System.out.println("Enter Branch IFSC code");
 		String bankIfscCode = sc.next();
 		account1.setBankIfscCode(bankIfscCode);
 		

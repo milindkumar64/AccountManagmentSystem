@@ -14,7 +14,7 @@ public class Bank {
 	}
     public Bank()
     {
-    	
+    	super();
     }
 	public String getBranchName() {
 		return branchName;

@@ -14,6 +14,6 @@ public class AccountManagementMain extends Account {
 		AccountManagement account1 = new AccountManagement();
        
 		account1.addAccountDetails(account1);
-		account1.displayAccountDetails();        
+		account1.displayAccountDetails();    
 	}
 }
